@@ -1,0 +1,33 @@
+* {margin: 0; padding: 0;}
+
+section {
+    background-color: gainsboro;
+    width: auto;
+    height: 800px;
+}
+img {
+    margin-left: 250px; 
+    width:500px;
+    height: 500px;
+}
+.wordpesslogo {
+   width: 40%;
+   height: 20%;
+   float: left;
+}
+.htmlcsslogo {
+   width: 40%;
+   height: 20%;
+   float: left;
+}
+.onderschrift1 {
+    clear: both;
+    font-family: sans-serif;
+    margin-left:  370px;
+    float: left;
+}
+.onderschrift2 {
+    margin-left: 700px;
+    font-family: sans-serif;
+    float: left;
+}

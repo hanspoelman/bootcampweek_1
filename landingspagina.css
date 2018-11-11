@@ -1,0 +1,27 @@
+img {
+    margin-left: 300px;        
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+button {
+    clear: both;
+    float: left;
+    margin-left: 45%;
+    margin-top: 3%;
+    font-size: 20px;
+    width: 150px;
+    height: 75px;
+    border: none;
+    border-radius: 4px;
+}
+article {
+    clear: both;
+    margin-left: 37%;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: justify;
+    width: 25%;
+    height: auto;    
+}

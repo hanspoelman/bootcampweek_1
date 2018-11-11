@@ -1,0 +1,39 @@
+<!doctype HTML>
+    <HTML>
+        <head>
+            <title>Wordpress</title>
+            <link rel="stylesheet" a href="hansweek1.css">
+            <link rel="stylesheet" a href=landingspagina.css>
+        </head>
+        <body>
+        <section>
+               <h1>Wordpress</h1>
+                <p align="center"> websites gebouwd in wordpress</p>
+            <br>
+            <img src="hpo.png" onclick="klik()">
+            <img src="lev.png" onclick="klik1()">
+            <br>
+            <a href="projecten.html"><button onclick="myfunction()">Terug</button></a>
+            <script>
+            function klik() {
+         
+                if (window.confirm("Wil je de website bezoeken?")) {
+                    window.open("http://hanspoelman.nl");
+                }
+                else {
+                    window.close();
+                }
+            }
+            function klik1() {
+                
+                if (window.confirm("Wil je de website bezoeken?")) {
+                    window.open("https://levhealthy.com/");
+                }
+                else {
+                    window.close();
+                }
+            }
+            </script>
+        </section>    
+        </body>
+    </HTML>

@@ -1,0 +1,157 @@
+*{ margin: 0; padding: 0;}
+body {
+    font-family: sans-serif;
+    font-size: 13pt;
+    background-image: url(achtergrondhome.jpg);
+    opacity: 0.6;
+    background-size: cover;
+}
+h1 {
+    font-size: 26pt;
+    text-align:center;
+    padding: 18px 0 18px 0;
+    }
+
+header {
+    display: block;
+    width: auto;
+    height: 80px;
+    font-size: 20pt;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color:gainsboro;
+    }
+section {
+    background-color: gainsboro;
+    width: auto;
+    height: 850px;
+}
+.textlb {
+    float: left;
+    margin-left: 120px;
+    margin-top: 180px;
+}
+.dubbelepijl1 img {
+    float: left;
+    margin-left: 150px;
+    width: 500px;
+    height: 320px;
+    border: none;
+    opacity: 0.09;
+}
+.textrb {
+    float: left;
+    margin-left: 80px;
+    margin-top: 180px;
+}
+.tafeltennis img {
+    float: left;
+    margin-left: 130px;
+}
+.ervaring img {
+    clear: both;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.textlo {
+    float: left;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+.dubbelepijl2 img {
+    float: left;
+    margin-left: 133px;
+    margin-top: 50px;
+    width: 500px;
+    height: 320px;
+    border: none;
+    opacity: 0.09;
+}
+.textro {
+    float: left;
+    margin-left: 80px;
+    margin-top: 180px;   
+}
+.leerdoelen img {
+    float: left;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+button {
+    clear: both;
+    float: left;
+    color:white;
+    font-size: 20px
+    width: 150px;
+    height: 75px;
+    border: 3px solid grey;
+    border-radius: 7px;
+    background-color: darkgreen; 
+    opacity: 0.7;
+}
+nav {
+    background-color:blue; 
+    }
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: gainsboro;
+    }
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    background-color:gainsboro;
+    color:black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover{
+    opacity: 0.2;
+}
+footer {
+    clear: both;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-family: cursive;
+    font-size: 15px;    
+    display: block;
+    width: auto;
+    height: 80px;
+    background-color: gainsboro;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 6px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+    background-image: 
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
